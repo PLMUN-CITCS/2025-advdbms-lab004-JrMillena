@@ -7,4 +7,10 @@ CREATE TABLE `Students` (
    `FirstName` VARCHAR(50) NOT NULL,
    `LastName` VARCHAR(50) NOT NULL,
    `EnrollmentDate` DATE
+Use `UniversityDB`;
+
+-- Step 2: Alter the table to add an Email column
+ALTER TABLE `Students`
+ADD `Email` VARCHAR(100);
+
 );
