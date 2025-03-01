@@ -44,5 +44,4 @@ for sql_file in "${SQL_FILES[@]}"; do
 done
 
 echo "Finished executing SQL scripts."
-
 exit 0
