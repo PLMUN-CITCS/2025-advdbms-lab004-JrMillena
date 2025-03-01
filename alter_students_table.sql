@@ -4,3 +4,4 @@ Use `UniversityDB`;
 ALTER TABLE `Students`
 ADD `Email` VARCHAR(100);
 SHOW COLUMNS FROM Students;
+SELECT DATABASE();
