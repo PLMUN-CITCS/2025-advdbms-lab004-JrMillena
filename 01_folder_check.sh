@@ -1,9 +1,8 @@
-#!/bin/bash
+Use `UniversityDB`;
 
-directory="university_db"
-
-if [ -d "$directory" ]; then
-echo "Folder exists"
-else
-echo "Folder does not exist"
-fi
+CREATE TABLE `Students` (
+   `StudentID` INT PRIMARY KEY AUTO_INCREMENT,
+   `FirstName` VARCHAR(50) NOT NULL,
+   `LastName` VARCHAR(50) NOT NULL,
+   `EnrollmentDate` DATE
+);
